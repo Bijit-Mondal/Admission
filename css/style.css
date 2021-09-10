@@ -1,0 +1,102 @@
+.nav_color{
+  background: rgb(255,245,212);
+  background: linear-gradient(180deg, rgba(255,245,212,1) 0%, rgba(209,202,182,0.9542016635755864) 91%);
+}
+.roboto_slab{
+  font-family: 'Roboto Slab', serif;
+}
+.hina_mincho{
+  font-family: 'Ubuntu', sans-serif;
+
+}
+.allura{
+  font-family: 'Allura', cursive;
+  font-size: 25px;
+}
+.ubuntu{
+  font-family: 'Hina Mincho', serif;
+  font-size: 18px;
+}
+.nav_down_content{
+    backdrop-filter: blur(16px) saturate(177%);
+    -webkit-backdrop-filter: blur(16px) saturate(177%);
+    background-color: rgba(255, 255, 255, 0.59);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.glass_mobile{
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.notifications{
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.collection{
+  margin:0;
+  background-color: #d1cab6;
+}
+.row{
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.collection .collection-item{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #ddd8cb;
+}
+.collection a.collection-item:not(.active):hover {
+  background-color: #d1cab6;
+}
+.pay_btn{
+  background-color: #ddd8cb;
+}
+.pay_hover:hover{
+  background-color: #d1cab6;
+}
+.pay_hover:focus{
+  background-color:#d1cab6;
+}
+blockquote{
+  border-left: 5px solid #d1cab6;
+  font-size: 17px;
+}
+.notices{
+  background-color: #ddd8cb;
+}
+.notices a{
+  margin-left: 0px;
+}
+.spinner-blue, .spinner-blue-only{
+  border-color: chocolate;
+}
+.subjects{
+  color:rgb(152 142 114);
+}
+.input-field .prefix.active{
+  color:chocolate;
+}
+.active{
+  color:red;
+  border-color: red;
+}
+.input-field input[type=text]:not(.browser-default):focus + label{
+  color:chocolate;
+}
+
+
+::-moz-selection {
+  color: whitesmoke;
+  background: chocolate;
+}
+
+::selection {
+  color: whitesmoke;
+  background:chocolate;
+}
